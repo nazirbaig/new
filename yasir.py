@@ -6,4 +6,4 @@ for i in range(1,n):
         break
 
 else:
-    print('Prime ')
+    print('Prime')
