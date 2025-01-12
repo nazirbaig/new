@@ -1,9 +1,5 @@
-n = int(input('enter the number'))
+n = input('enter the number')
 
-for i in range(1,n):
-    if n%i == 0 :
-        print('Not prime')
-        break
+a = n[::-1]
 
-else:
-    print('Prime ')
+print(a)
